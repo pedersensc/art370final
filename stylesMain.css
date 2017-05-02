@@ -1,0 +1,147 @@
+/* four-color color scheme including green, grey, black, and white */
+
+body{
+	background-color: #000;
+}
+
+@font-face{
+	font-family: legend;
+	src: url(legend_m54.woff);
+}
+
+h1{
+	font-family: legend;
+	color: #000;
+  margin: 0px;
+  padding: 0px;
+	}
+
+h2{
+	font-family: legend;
+	color: #000;
+  padding: 0px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  text-align: center;
+	}
+
+p {
+  margin-top: 5px;
+}
+
+ul.nav_one{
+	list-style-type: none;
+	margin: 0px auto 0px 0px;
+	padding: 0px;
+	display: inline-block;
+	}
+
+.nav_one_elements li{
+	float: left;
+}
+
+div.link_one a:link, a:visited{
+	color: #000;
+	font-family: legend;
+	font-size: 20px;
+	display: block;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-decoration: none;
+}
+
+div.link_one a:hover, a:active{
+	color: #FFF;
+  background-color: #000;
+	font-family: legend;
+	font-size: 20px;
+	display: block;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-decoration: none;
+}
+
+.hr_style{
+	width: 1000px;
+	margin: auto;
+	border-bottom: 4px ridge #000;
+}
+
+#page_wrapper{
+	margin: 10px auto 10px auto;
+	width:1000px;
+	background-color: #FFF;
+	border-right: 3px ridge #000;
+	border-left: 3px ridge #000;
+	border-top: 4px ridge #000;
+	border-bottom: 4px ridge #000;
+	text-align: center;
+}
+
+#header_img{
+float: left;
+padding-left: 40px;
+}
+
+#header{
+	float: center;
+	text-align: center;
+	font-family: legend;
+	color: #000;
+	font-size: 100px;
+}
+
+#content{
+	min-height: 1000px;
+	font-family: Helvetica;
+	text-align: center;
+	color: #000;
+}
+
+#footer{
+	font-family: legend;
+	border-top: 4px ridge #000;
+	color: #000;
+	font-size: 25px;
+	text-align: center;
+}
+img#logo{
+  filter: none;
+}
+
+img{
+  filter: grayscale(100%);
+}
+#img1 {
+  width: 50%;
+  float: left;
+  position:relative;
+  text-align: left;
+}
+
+#about{
+  width: 50%;
+  position: relative;
+  float: right;
+  text-align: right;
+}
+
+/*#resume {
+  position: relative;
+  left: 160px;
+}
+
+#img2 {
+  position: relative;
+  /*left: 683px;
+  bottom: 410px;
+  float: left;
+  display:
+
+}
+
+#design {
+  position: relative;
+  left: 40px;
+
+}*/
