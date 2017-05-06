@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+  <!-- uncomment lines below to include extra p5 libraries -->
+  <script language="javascript" src="libraries/p5.dom.js"></script>
+  <script language="javascript" src="libraries/p5.sound.js"></script>
+  <script language="javascript" type="text/javascript" src="sketch.js"></script>
+  <!-- this line removes any default padding and style. you might only need one of these values set. -->
+  <style> body {padding: 0; margin: 0;} </style>
+	<title>Sam Pedersen Portfolio</title>
+	<link rel="icon" href="redstar.png" type="image/gif" sizes="32x32">
+	<link rel="stylesheet" type="text/css" href="normalizer.css">
+	<link rel="stylesheet" type="text/css" href="stylesMain.css">
+</head>
+<body>
+	<div id="page_wrapper">
+		<div id="header_img">
+		<img id="logo" src="redstar.png" alt="My Favicon" style="width: 150px; height: 150px;">
+		</div>
+		<div id="header">
+		SAM PEDERSEN
+		</div>
+		<div id="content">
+			<ul class="nav_one">
+				<div class="nav_one_elements">
+					<div class="link_one">
+						<li><a href="index.html">HOME</a></li>
+            <li><a href="index.html">ABOUT</a></li>
+						<li><a href="index.html">EVENTS</a></li>
+            <li><a href="index.html">PHOTOGRAPHY</a></li>
+						<li><a href="index.html">GRAPHIC DESIGN</a></li>
+						<li><a href="index.html">CLASSWORK</a></li>
+						<li><a href="index.html">CONTACT ME</a></li>
+					</div>
+				</div>
+			</ul>
+			<div class="hr_style"></div>
+
+<link rel="stylesheet" type="text/css" href="stylesBackgrounds.css">
+
+		<div id="fields">
+      <div id="img1">
+        <img id="myImg" onmouseover="gray2()" onmouseout="gray1()" src="meWarped1.JPG" alt="My Favicon" name="image" style="width: 100%; height: 100%"/>
+        <!-- <h1 id="resume">FULL RESUME</h1> -->
+      </div>
+
+      <div id="about">
+        <h2>ABOUT ME</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+    			ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+    			ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
+    			in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis
+    			at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis
+    			dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+    			doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis
+    			in iis qui facit eorum claritatem.
+        </p>
+      </div>
+
+			<div id="slides">
+				<img id="demo" name="slide" src="img1.jpg" style="height: 100%; width: 100%" />
+			</div>
+		</div>
+
+		<p id="blog"> Subscribe to my photo blog!</p>
+
+		<form name="myForm" onsubmit="return validateForm()">
+			E-mail: <input type="text" name="fname">
+			<input type="submit" value="Submit">
+		</form>
+
+		</br>
+</div>
+
+		<div id="footer">
+		Copyright Sam Pedersen 2017
+		</div>
+	</div>
+</body>
+</html>
